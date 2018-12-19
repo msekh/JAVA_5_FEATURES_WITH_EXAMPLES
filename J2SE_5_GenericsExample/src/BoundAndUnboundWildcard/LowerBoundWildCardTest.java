@@ -102,7 +102,7 @@ class InstitueLower {
 		return noOfStudents;
 	}
 
-	// Generics upper bound method
+	// Generics lower bound method
 	public void displayStudentDetails(List<? super DepartmentLower> list) {
 		for (Object s : list) {
 			// calling method of Students class by child class instance
